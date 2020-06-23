@@ -23,11 +23,11 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.lbl_Sintomas = New System.Windows.Forms.Label()
-        Me.ChBox_Sintomas = New System.Windows.Forms.CheckedListBox()
         Me.btn_Si = New System.Windows.Forms.Button()
         Me.btn_No = New System.Windows.Forms.Button()
-        Me.list_Diagnostico = New System.Windows.Forms.ListView()
         Me.btn_Aceptar = New System.Windows.Forms.Button()
+        Me.list_Diagnostico = New System.Windows.Forms.ListView()
+        Me.ChBox_Sintomas = New System.Windows.Forms.CheckedListBox()
         Me.SuspendLayout()
         '
         'lbl_Sintomas
@@ -38,15 +38,6 @@ Partial Class Form1
         Me.lbl_Sintomas.Size = New System.Drawing.Size(50, 13)
         Me.lbl_Sintomas.TabIndex = 1
         Me.lbl_Sintomas.Text = "Sintomas"
-        '
-        'ChBox_Sintomas
-        '
-        Me.ChBox_Sintomas.FormattingEnabled = True
-        Me.ChBox_Sintomas.Items.AddRange(New Object() {"Dolor de Cabeza", "Tos", "Fiebre", "Deficiencia Respiratoria", "Dolor Lumbar", "Ardor "})
-        Me.ChBox_Sintomas.Location = New System.Drawing.Point(209, 59)
-        Me.ChBox_Sintomas.Name = "ChBox_Sintomas"
-        Me.ChBox_Sintomas.Size = New System.Drawing.Size(146, 184)
-        Me.ChBox_Sintomas.TabIndex = 2
         '
         'btn_Si
         '
@@ -66,6 +57,15 @@ Partial Class Form1
         Me.btn_No.Text = "No"
         Me.btn_No.UseVisualStyleBackColor = True
         '
+        'btn_Aceptar
+        '
+        Me.btn_Aceptar.Location = New System.Drawing.Point(249, 268)
+        Me.btn_Aceptar.Name = "btn_Aceptar"
+        Me.btn_Aceptar.Size = New System.Drawing.Size(75, 23)
+        Me.btn_Aceptar.TabIndex = 8
+        Me.btn_Aceptar.Text = "Aceptar"
+        Me.btn_Aceptar.UseVisualStyleBackColor = True
+        '
         'list_Diagnostico
         '
         Me.list_Diagnostico.HideSelection = False
@@ -75,14 +75,14 @@ Partial Class Form1
         Me.list_Diagnostico.TabIndex = 7
         Me.list_Diagnostico.UseCompatibleStateImageBehavior = False
         '
-        'btn_Aceptar
+        'ChBox_Sintomas
         '
-        Me.btn_Aceptar.Location = New System.Drawing.Point(249, 268)
-        Me.btn_Aceptar.Name = "btn_Aceptar"
-        Me.btn_Aceptar.Size = New System.Drawing.Size(75, 23)
-        Me.btn_Aceptar.TabIndex = 8
-        Me.btn_Aceptar.Text = "Aceptar"
-        Me.btn_Aceptar.UseVisualStyleBackColor = True
+        Me.ChBox_Sintomas.FormattingEnabled = True
+        Me.ChBox_Sintomas.Items.AddRange(New Object() {"Dolor de Cabeza", "Tos", "Fiebre", "Deficiencia Respiratoria", "Dolor Lumbar", "Ardor "})
+        Me.ChBox_Sintomas.Location = New System.Drawing.Point(209, 59)
+        Me.ChBox_Sintomas.Name = "ChBox_Sintomas"
+        Me.ChBox_Sintomas.Size = New System.Drawing.Size(146, 184)
+        Me.ChBox_Sintomas.TabIndex = 2
         '
         'Form1
         '
@@ -102,9 +102,9 @@ Partial Class Form1
 
     End Sub
     Friend WithEvents lbl_Sintomas As Label
-    Friend WithEvents ChBox_Sintomas As CheckedListBox
     Friend WithEvents btn_Si As Button
     Friend WithEvents btn_No As Button
-    Friend WithEvents list_Diagnostico As ListView
     Friend WithEvents btn_Aceptar As Button
+    Friend WithEvents list_Diagnostico As ListView
+    Friend WithEvents ChBox_Sintomas As CheckedListBox
 End Class

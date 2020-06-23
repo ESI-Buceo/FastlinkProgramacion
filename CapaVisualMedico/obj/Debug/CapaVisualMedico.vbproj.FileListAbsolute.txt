@@ -1,0 +1,12 @@
+C:\Users\DarkMath\source\repos\SistemaConsultaMedica\CapaVisualMedico\bin\Debug\CapaVisualMedico.exe.config
+C:\Users\DarkMath\source\repos\SistemaConsultaMedica\CapaVisualMedico\bin\Debug\CapaVisualMedico.exe
+C:\Users\DarkMath\source\repos\SistemaConsultaMedica\CapaVisualMedico\bin\Debug\CapaVisualMedico.pdb
+C:\Users\DarkMath\source\repos\SistemaConsultaMedica\CapaVisualMedico\bin\Debug\CapaVisualMedico.xml
+C:\Users\DarkMath\source\repos\SistemaConsultaMedica\CapaVisualMedico\obj\Debug\CapaVisualMedico.vbprojAssemblyReference.cache
+C:\Users\DarkMath\source\repos\SistemaConsultaMedica\CapaVisualMedico\obj\Debug\CapaVisualMedico.Form1.resources
+C:\Users\DarkMath\source\repos\SistemaConsultaMedica\CapaVisualMedico\obj\Debug\CapaVisualMedico.Resources.resources
+C:\Users\DarkMath\source\repos\SistemaConsultaMedica\CapaVisualMedico\obj\Debug\CapaVisualMedico.vbproj.GenerateResource.cache
+C:\Users\DarkMath\source\repos\SistemaConsultaMedica\CapaVisualMedico\obj\Debug\CapaVisualMedico.vbproj.CoreCompileInputs.cache
+C:\Users\DarkMath\source\repos\SistemaConsultaMedica\CapaVisualMedico\obj\Debug\CapaVisualMedico.exe
+C:\Users\DarkMath\source\repos\SistemaConsultaMedica\CapaVisualMedico\obj\Debug\CapaVisualMedico.xml
+C:\Users\DarkMath\source\repos\SistemaConsultaMedica\CapaVisualMedico\obj\Debug\CapaVisualMedico.pdb
